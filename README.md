@@ -1,16 +1,45 @@
-# React + Vite
+# React Todo App
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A simple and interactive Todo List application built with React and Tailwind CSS, demonstrating state management, conditional rendering, and dynamic list updates.
 
-Currently, two official plugins are available:
+# Project Overview
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+This project allows users to:
+	•	Add new tasks
+	•	Mark tasks as completed
+	•	Delete tasks
+	•	View live input updates
 
-## React Compiler
+The application is fully state-driven and showcases core React fundamentals such as updating arrays immutably and rendering dynamic lists.
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+# Tech Stack
+	•	React
+	•	JavaScript (ES6+)
+	•	Tailwind CSS
 
-## Expanding the ESLint configuration
+# Features
+	•	Add new todo items
+	•	Prevent empty submissions
+	•	Toggle task completion (line-through effect)
+	•	Delete tasks
+	•	Conditional rendering when list is empty
+	•	Controlled input field
+	•	Live preview of typed text
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+# Key Concepts Demonstrated
+	•	useState for managing text input and list state
+	•	Controlled components
+	•	Updating arrays using spread operator
+	•	Immutable state updates with map() and filter()
+	•	Conditional rendering using ternary operators
+	•	Event handling in React
+	•	Dynamic class rendering
+
+# Learning Focus
+
+This project was built to strengthen understanding of:
+	•	Managing arrays in React state
+	•	Updating specific items in a list
+	•	Component re-render behaviour
+	•	Clean UI logic using Tailwind CSS
+	•	Writing readable and maintainable React components
